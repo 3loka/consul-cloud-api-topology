@@ -1,0 +1,24 @@
+{
+  "oms-cluster": {
+    "intention": [
+      {
+        "source": "dashboardisplay-service",
+        "destination": "dashboard-postgres-service",
+        "action": "allow",
+        "meta": {
+          "description": "Allow traffic from service1 to 2",
+          "created_by": "John Doe"
+        }
+      },
+      {
+        "source": "oms-service",
+        "destination": "oms-mongodb-service",
+        "action": "deny",
+        "meta": {
+          "description": "Allow traffic from 3 to 4",
+          "created_by": "John Doe"
+        }
+      }
+    ]
+  }
+}

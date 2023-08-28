@@ -1,0 +1,97 @@
+{
+    "node": [
+      {
+        "name": "node-1",
+        "id": "node-1",
+        "address": "192.168.1.2",
+        "parent_cluster": "dashboard-cluster",
+        "status": "alive",
+        "datacenter": "dc1",
+        "meta": {
+          "rack": "rack-1",
+          "region": "us-east"
+        },
+        "config": {
+          "node_name": "node-1",
+          "data_dir": "/var/consul",
+          "log_level": "INFO",
+          "node_id": "40e4a748-2192-161a-0510-9bf59fe950b5"
+        },
+        "coordinates": {
+          "dc": "dc1",
+          "vec": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "name": "node-2",
+        "id": "node-2",
+        "address": "192.168.1.2",
+        "parent_cluster": "customerportal-cluster",
+        "status": "alive",
+        "datacenter": "dc1",
+        "meta": {
+          "rack": "rack-1",
+          "region": "us-east"
+        },
+        "config": {
+          "node_name": "node-2",
+          "data_dir": "/var/consul",
+          "log_level": "INFO",
+          "node_id": "40e4a748-2192-161a-0510-9bf59fe950b5"
+        },
+        "coordinates": {
+          "dc": "dc1",
+          "vec": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "name": "node-3",
+        "id": "node-3",
+        "address": "192.168.1.2",
+        "parent_cluster": "oms-cluster",
+        "status": "alive",
+        "datacenter": "dc1",
+        "meta": {
+          "rack": "rack-1",
+          "region": "us-east"
+        },
+        "config": {
+          "node_name": "node-1",
+          "data_dir": "/var/consul",
+          "log_level": "INFO",
+          "node_id": "40e4a748-2192-161a-0510-9bf59fe950b5"
+        },
+        "coordinates": {
+          "dc": "dc1",
+          "vec": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    ]
+  }

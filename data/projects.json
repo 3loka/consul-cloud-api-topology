@@ -1,0 +1,22 @@
+{
+    "project": [
+          {
+            "name": "Dashboard Project",
+            "id": "internaldashboard-project",
+            "parent_organization": "marketing-org",
+            "description": "Project for developing and maintaining the e-commerce platform"
+        },
+          {
+            "name": "Customer Portal Project",
+            "id": "customerportal-project",
+            "parent_organization": "marketing-org",
+            "description": "Project for optimizing the SEO of the company's websites"
+        },
+        {
+          "name": "Order Managagement System Project",
+          "id": "oms-project",
+          "parent_organization": "demo-org",
+          "description": "Project for Order management system"
+      }
+        ]
+      }

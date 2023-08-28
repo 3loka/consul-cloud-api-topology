@@ -1,0 +1,14 @@
+{
+    "organization": [
+      {
+        "name": "Demo Org",
+        "id": "demo-org",
+        "description": "Organization responsible for developing and maintaining the company's software infrastructure"
+      },
+      {
+        "name": "Marketing",
+        "id": "marketing-org",
+        "description": "Organization responsible for promoting the company's products and services"
+    }
+    ]
+  }

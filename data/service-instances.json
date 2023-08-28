@@ -1,0 +1,70 @@
+
+{
+    "service_instance": [{
+      "id": "inst-1",
+      "node": "node-1",
+      "address": "192.168.1.3",
+      "port": 8000,
+      "parent_service": "dashboardisplay-service",
+      "service_tags": ["primary", "v1"],
+      "status": "passing",
+      "meta": {
+        "version": "2.6.0",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "inst-2",
+      "node": "node-1",
+      "address": "192.168.1.3",
+      "port": 8000,
+      "parent_service": "dashboard-postgres-service",
+      "service_tags": ["primary", "v1"],
+      "status": "passing",
+      "meta": {
+        "version": "2.6.0",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "inst-3",
+      "node": "node-2",
+      "address": "192.168.1.3",
+      "port": 8000,
+      "parent_service": "ustomerportal-service",
+      "service_tags": ["primary", "v1"],
+      "status": "passing",
+      "meta": {
+        "version": "2.6.0",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "inst-4",
+      "node": "node-3",
+      "address": "192.168.1.3",
+      "port": 8000,
+      "parent_service": "oms-service",
+      "service_tags": ["primary", "v1"],
+      "status": "passing",
+      "meta": {
+        "version": "2.6.0",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "inst-5",
+      "node": "node-3",
+      "address": "192.168.1.3",
+      "port": 8000,
+      "parent_service": "oms-service",
+      "service_tags": ["primary", "v1"],
+      "status": "passing",
+      "meta": {
+        "version": "2.6.0",
+        "author": "John Doe"
+      }
+    }
+    ]
+  }
+  

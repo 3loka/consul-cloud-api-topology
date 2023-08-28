@@ -1,0 +1,55 @@
+
+{
+    "service": [
+      {
+        "name": "Display service",
+        "id": "dashboardisplay-service",
+        "tags": ["tag-1", "tag-2"],
+        "address": "192.168.1.2",
+        "port": 8080,
+        "parent_node": "node-1",
+        "Partition": "P1",
+        "Namespace": "N1"
+      },
+      {
+        "name": "postgres",
+        "id": "dashboard-postgres-service",
+        "tags": ["tag-1"],
+        "address": "192.168.1.2",
+        "port": 9090,
+        "parent_node": "node-1",
+        "Partition": "P1",
+        "Namespace": "N1"
+      },
+      {
+        "name": "Customer Portal Service",
+        "id": "customerportal-service",
+        "tags": ["tag-1"],
+        "address": "192.168.1.2",
+        "port": 9090,
+        "parent_node": "node-2",
+        "Partition": "P1",
+        "Namespace": "N1"
+      },
+      {
+        "name": "Order Display",
+        "id": "oms-service",
+        "tags": ["tag-1"],
+        "address": "192.168.1.2",
+        "port": 9090,
+        "parent_node": "node-3",
+        "Partition": "P1",
+        "Namespace": "N1"
+      },
+      {
+        "name": "mongodb",
+        "id": "oms-mongodb-service",
+        "tags": ["tag-1"],
+        "address": "192.168.1.2",
+        "port": 9090,
+        "parent_node": "node-3",
+        "Partition": "P1",
+        "Namespace": "N1"
+      }
+    ]
+  }
